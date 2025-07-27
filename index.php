@@ -1,8 +1,5 @@
- 
 <?php
-error_log("✅ PHP app loaded");
-echo "Hello from PHP!";
- 
-phpinfo();
-header("Location: tech/login.php");
-exit();
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+error_log("✅ index.php loaded");
+echo "Hello from Railway PHP!";
